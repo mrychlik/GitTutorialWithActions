@@ -14,4 +14,7 @@ If you run 'pytest' or 'python -m pytest' in this folder, functions named test_*
 will be run.
 
 
+#  Authomation of testing
+
+
 	
