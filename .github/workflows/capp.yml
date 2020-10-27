@@ -1,0 +1,16 @@
+name: Make C project
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    name: Make C project
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Compile
+      run: |
+        make
