@@ -4,6 +4,11 @@ import datetime
 def test_arithmetic():
     2+2==4
 
+def test_faulty_arithmetic():
+    2+2==5
+
+
+
 def test_datetime():
     print(datetime.datetime.now().strftime('%Y:%m:%d:%H:%M:%S'))
 
