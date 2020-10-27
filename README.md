@@ -11,14 +11,14 @@ account to PRO. This eliminates a 100MB limit on repository size and adds some o
 
 ## Integration of a GitHub project with your desktop environment
 
-* I create most content (code, TeX, etc. with Emacs).
+* I create most content (code, TeX, etc. with Emacs). If you are using some kind of IDE, check if it integrates with Git.
 * Emacs has Git integration, so most of the common operations on Git repository are a single keystroke operations.
 	
 * If you do not want to retype credentials every , do this after checkout:
 
 	git config credential.helper 'cache --timeout=3000000'
 
-This is very impor
+This is very important when using Emacs
 	
 	
 #  Python and 'pytest'
