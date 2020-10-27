@@ -14,4 +14,4 @@ jobs:
     - name: Compile
       run: |
         pwd
-        make -v -f ../../makefile
+        make -f makefile
