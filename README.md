@@ -38,6 +38,8 @@ You use ***GitHub*** feature called 'Actions'. Things to remember:
 * Testing is performed by a virtual machine running an OS, e.g. Ubuntu.
 * One can install software into the OS, to run any kind of code.
 * Actions are normally triggered by any 'push' to the GitHub repository.
+* Actions are described in files residing in a folder named .github and are best
+  written in a language named YAML (Yet Another Markup Language)
 
 
 
