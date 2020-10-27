@@ -23,11 +23,15 @@ This is very important when using integration with your development software (Em
 	
 #  Python and 'pytest'
 
-If you run 'pytest' or 'python -m pytest' in this folder, functions named test_* in the file test_me.py
-will be run.
+If you run 'pytest' or 'python -m pytest' in this folder, functions
+named test_* in the file test_me.py will be run.
 
 
 #  Automation of testing
+
+Unit testing is extremely important for reproducibility of
+results. Automation of unit testing is the best solution to natural
+avoidance of testing, because it is time consuming and an annoyance.
 
 You use ***GitHub*** feature called 'Actions'. Things to remember:
 
