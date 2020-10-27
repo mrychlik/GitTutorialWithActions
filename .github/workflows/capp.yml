@@ -9,9 +9,11 @@ jobs:
 
     name: Make C project
     runs-on: ubuntu-latest
+    env:
+      working-directory: .
 
     steps:
     - name: Compile
       run: |
         pwd
-        make --debug=v -f /home/runner/work/GitTutorialWithActions/makefile
+        make --debug=v
