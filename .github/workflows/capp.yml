@@ -13,5 +13,5 @@ jobs:
     steps:
     - name: Compile
       run: |
-        pwd;
+        pwd
         make --debug=v -f /home/runner/work/GitTutorialWithActions/GitTutorialWithActions/makefile
