@@ -40,6 +40,8 @@ You use ***GitHub*** feature called 'Actions'. Things to remember:
 * Actions are normally triggered by any 'push' to the GitHub repository.
 * Actions are described in files residing in a folder named .github and are best
   written in a language named YAML (Yet Another Markup Language)
+* GitHub has many template action files for various types of projects. In this 
+  repository we use a 'Python Application' template.
 
 
 
