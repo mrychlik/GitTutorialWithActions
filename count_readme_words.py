@@ -7,7 +7,6 @@
 # Copying:  (C) Marek Rychlik, 2020. All rights reserved.
 # 
 #----------------------------------------------------------------
-
 def count_the_words():
     file = open("README.md", "rt")
     data = file.read()
