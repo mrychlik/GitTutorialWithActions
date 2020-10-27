@@ -18,3 +18,6 @@ jobs:
       run: |
         pwd
         make --debug=v
+    - name: Execute
+      run: |
+        hello
