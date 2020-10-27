@@ -1,1 +1,4 @@
-all: hello
+all: hello env
+
+env:
+	printenv
