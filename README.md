@@ -41,7 +41,10 @@ You use ***GitHub*** feature called 'Actions'. Things to remember:
 * Actions are described in files residing in a folder named .github and are best
   written in a language named YAML (Yet Another Markup Language)
 * GitHub has many template action files for various types of projects. In this 
-  repository we use a 'Python Application' template.
+  repository we use a 'Python Application' template with some modifications.
+* GitHub says that Actions can be performed by a user server, although I have not used this
+  option yet. Thus, a server could run an application, such as MATLAB, to test code
+  that cannot be run in the GitHub environment
 
 
 
