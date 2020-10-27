@@ -35,8 +35,9 @@ avoidance of testing, because it is time consuming and an annoyance.
 
 You use ***GitHub*** feature called 'Actions'. Things to remember:
 
-	* Testing is performed by a virtual machine running an OS, e.g. Ubuntu.
-	* One can install software into the OS, to run any kind of code
+* Testing is performed by a virtual machine running an OS, e.g. Ubuntu.
+* One can install software into the OS, to run any kind of code.
+* Actions are normally triggered by any 'push' to the GitHub repository.
 
 
 
