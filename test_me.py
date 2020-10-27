@@ -1,6 +1,9 @@
 # This file will be located by pytest and functions will be executed
 import datetime
 
+def test_arithmetic():
+    2+2==4
+
 def test_datetime():
     print(datetime.datetime.now().strftime('%Y:%m:%d:%H:%M:%S'))
 
