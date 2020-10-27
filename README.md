@@ -16,5 +16,8 @@ will be run.
 
 #  Authomation of testing
 
+You use ***GitHub*** feature called 'Actions'.
+
+
 
 	
