@@ -1,5 +1,5 @@
 # This file will be located by pytest and functions will be executed
-import date
+import datetime
 
 def test_all():
     file = open("README.md", "rt")
