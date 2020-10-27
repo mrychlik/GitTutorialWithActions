@@ -18,7 +18,7 @@ account to PRO. This eliminates a 100MB limit on repository size and adds some o
 
 	git config credential.helper 'cache --timeout=3000000'
 
-This is very important when using integration with your other software.
+This is very important when using integration with your development software (Emacs, Vim, etc.)
 	
 	
 #  Python and 'pytest'
