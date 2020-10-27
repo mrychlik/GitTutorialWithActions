@@ -13,4 +13,4 @@ jobs:
     steps:
     - name: Compile
       run: |
-        make --debug=v -f ../../makefile
+        make --debug=v 
