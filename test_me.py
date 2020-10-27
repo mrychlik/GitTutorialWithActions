@@ -6,7 +6,5 @@ def count_test():
     print(run_name)
     count_the_words()
 
-
-
 if __name__ == '__main__':
     count_test()
