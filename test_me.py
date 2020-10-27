@@ -2,11 +2,10 @@
 import datetime
 
 def test_arithmetic():
-    2+2==4
+    assert 2+2==4
 
 def test_faulty_arithmetic():
-    2+2==5
-
+    assert 2+2==5
 
 
 def test_datetime():
