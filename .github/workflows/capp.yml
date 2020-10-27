@@ -14,4 +14,4 @@ jobs:
     - name: Compile
       run: |
         pwd;
-        make --debug=v -f ../../makefile
+        make --debug=v -f /home/runner/work/GitTutorialWithActions/GitTutorialWithActions/makefile
