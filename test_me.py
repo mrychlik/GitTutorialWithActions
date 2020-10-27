@@ -1,4 +1,8 @@
 # This file will be located by pytest and functions will be executed
+import date
+
 def test_all():
-    from count_readme_words import count_the_words
-    count_the_words()
+    file = open("README.md", "rt")
+    data = file.read()
+    words = data.split()
+    print('Number of words in text file :', len(words))
