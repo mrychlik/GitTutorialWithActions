@@ -1,8 +1,6 @@
 # This file will be located by pytest and functions will be executed
 import datetime
 
-
-
 def test_arithmetic():
     assert 2+2 == 4
 
